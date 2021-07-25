@@ -1,0 +1,182 @@
+.Main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    .abstract {
+        display: flex;
+        justify-content: space-between;
+        .explore {
+            width: 500px;
+            height: 800px;
+            background-image: url("../../images/explore.webp");
+            background-size: 100% 100%;
+            .exploreInfo {
+                margin-top: 300px;
+                width: 400px;
+                background-color: #fff;
+                padding-top: 20px;
+                padding-left: 10px;
+                padding-right: 20px;
+                padding: 20px 20px 50px 10px;
+                .title {
+                    color: rgb(32, 20, 83);
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                h4 {
+                    color: rgb(32, 20, 83);
+                    font-size: 24px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+                .info {
+                    color: rgb(32, 20, 83);
+                    margin-top: 30px;
+                }
+                .exploreBtn {
+                    margin-top: 20px;
+                    color: rgb(32, 20, 83);
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .right {
+            width: 670px;
+            .weclome {
+                background-color: #201453;
+                padding: 50px 40px 40px 50px;
+                .line {
+                    width: 220px;
+                    height: 4px;
+                    margin-bottom: 10px;
+                    background-color: #fff;
+                }
+                .title {
+                    color: #fff;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                h4 {
+                    color: #fff;
+                    font-size: 24px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+                .info {
+                    color: #fff;
+                    margin-top: 20px;
+                    font-size: 14px;
+                }
+                .end {
+                    color: #fff;
+                    margin-top: 20px;
+                    font-size: 16px;
+                }
+            }
+            .subscripe {
+                margin-top: 20px;
+                position: relative;
+                width: 670px;
+                height: 420px;
+                .img {
+                    position: absolute;
+                    width: 500px;
+                    height: 400px;
+                    right: 0;
+                    top: 0;
+                    background-size: 100% 100%;
+                    background-image: url("../../images/subscripe.webp");
+                }
+                .follow {
+                    position: absolute;
+                    width: 500px;
+                    height: 200px;
+                    background-color: #fff;
+                    left: 0;
+                    bottom: 0;
+                    display: flex;
+                    padding: 40px 20px 20px 30px;
+                    justify-content: space-between;
+                    .info {
+                        .line {
+                            width: 220px;
+                            height: 4px;
+                            margin-bottom: 10px;
+                            background-color: rgb(32, 20, 83);
+                        }
+                        .title {
+                            color: rgb(32, 20, 83);
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
+                        h4 {
+                            color: rgb(32, 20, 83);
+                            font-size: 24px;
+                            margin: 0;
+                            font-weight: bold;
+                        }
+                    }
+                    .barCode {
+                        width: 150px;
+                        height: 150px;
+                        background-size: 100% 100%;
+                        background-image: url("../../images/barCode.webp");
+                    }
+                }
+            }
+        }
+    }
+
+    .categories {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        .info {
+            .line {
+                width: 220px;
+                height: 4px;
+                margin-bottom: 10px;
+                background-color: rgb(32, 20, 83);
+            }
+            .title {
+                color: rgb(32, 20, 83);
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            h4 {
+                color: rgb(32, 20, 83);
+                font-size: 24px;
+                margin: 0;
+                font-weight: bold;
+            }
+        }
+        .content {
+            width: 750px;
+            .item {
+                float: right;
+                width: 350px;
+                height: 120px;
+                margin-left: 20px;
+                margin-bottom: 50px;
+                background-size: 100% 100%;
+                background-image: url("../../images/categoriesBg.webp");
+                .name {
+                    width: 200px;
+                    height: 60px;
+                    margin-top: 30px;
+                    text-align: center;
+                    line-height: 60px;
+                    color: rgb(32, 20, 83);
+                    background-color: #fff;
+                    cursor: pointer;
+                }
+                .name:hover {
+                    color: #00d7bb;
+                    background-color: rgb(32, 20, 83);
+                }
+            }
+        }
+    }
+}

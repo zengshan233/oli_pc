@@ -1,0 +1,25 @@
+.AboutUs {
+    width: 1200px;
+    margin: 0 auto;
+    .left{
+        width: 500px;
+        text-align: justify;
+
+        h4 {
+            color: rgb(32, 20, 83);
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+        }
+        .info {
+            font-size: 14px;
+            color: rgb(32, 20, 83);
+            line-height: 15px;
+            margin-bottom: 20px;
+        }
+        .info:first-child{
+            margin-bottom: 0!important;
+        }
+    }
+    
+}
